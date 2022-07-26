@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box  ;
+}
+
+body {
+    background-color: #333;
+    margin: 0;
+}
+
+#hora {
+    color: #eee;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#flex-container {
+    position: relative;
+    left: calc(50% - 100px);
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 5px;
+    width: 50px;
+    border: none;
+    color: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.start-btn {
+    background-color: blue;
+}
+
+.pause-btn {
+    background-color: green;
+}
+
+.stop-btn{
+    background-color: red;
+}
